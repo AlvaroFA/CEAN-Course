@@ -1,0 +1,15 @@
+html
+  head
+  body
+    nav
+      a(href='/') login
+      |  
+      a(href='/comments') coments
+    form#message(action='/coment', method='POST')
+      input(type='text', name='mensaje', value='mensaje')
+      br
+      |  
+      input(type='submit', value='enviar')
+    #comentarios
+      p(id='mostrar_comentarios')
+

@@ -1,0 +1,15 @@
+.navBar{
+    width: 100%;
+    background-color: dodgerblue;
+}
+.menu{
+    width: 100%;
+}
+
+#linkBar{
+    color: white;
+    display:inline;
+    margin:0px 20px;
+}
+
+

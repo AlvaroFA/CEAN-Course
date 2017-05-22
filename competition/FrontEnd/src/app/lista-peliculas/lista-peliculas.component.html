@@ -1,0 +1,26 @@
+<table style="width:100%">
+  <tr>
+    <th>Titulo</th>
+    <th>Genero</th> 
+    <th>Digital</th>
+    <th>Blue-Ray</th>
+    <th>DVD</th>
+  </tr>
+     <tr *ngFor="let pelicula of peliculas | async; let i = index">
+         <!--  <receta [receta] = "receta"> </receta> -->  <!-- Usamos Property binding para meter componente dentro de otro -->
+            <td>{{pelicula.nombre}}</td>
+            <td>{{pelicula.generos | generosPipe}}</td>
+            <td>{{pelicula.formatos.digital}}</td>
+            <td>{{pelicula.formatos.bluray}}</td>
+            <td>{{pelicula.formatos.dvd}}</td>
+           <!--  <td>{{pelicula.formatos[0].disponible}}</td>
+            <td>{{pelicula.formatos[0].disponible}}</td>-->
+                                                               <!-- Property binding [receta] = variable @input -->
+
+        <!--   <pelicula [pelicula] = "pelicula" (resultado) = "verResultado($event)"> </pelicula>  -->
+    </tr>
+</table>
+
+<input type="text" id='title' name='title' placeholder='introduzca Titulo'[(ngModel)] = "title">
+<button name='buscar' (click)="buscarPelicula()">Buscar
+

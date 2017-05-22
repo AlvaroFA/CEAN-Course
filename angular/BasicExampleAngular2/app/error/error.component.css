@@ -1,0 +1,8 @@
+img{
+    display: block;
+    left:30%;
+}
+#error{
+    color: red;
+    text-align: center;
+}

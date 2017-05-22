@@ -1,0 +1,1 @@
+export enum Generos {Accion, SciFi, Drama, Terror, Comedia, Romance};

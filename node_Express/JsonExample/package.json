@@ -1,0 +1,19 @@
+{
+  "name": "appnotes",
+  "version": "0.0.1",
+  "description": "gestion notas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "alvaro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "yargs": "^7.0.2"
+  }
+}

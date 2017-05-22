@@ -1,0 +1,8 @@
+<div id=container-list>
+<ul id='lista' name='lista'>
+    <li id='recetas' name='recetas' *ngFor="let receta of recetas | async; let i=index">
+        <recipeItem [receta]= "receta" (resultado)="verResultado($event)"></recipeItem>
+    </li>
+</ul>
+</div>
+<button (click)="addRecipe()">Agregar nueva receta</button>

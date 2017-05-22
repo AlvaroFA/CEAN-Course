@@ -1,0 +1,23 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlvaroFA/nodeChat.git"
+  },
+  "author": "AlvaroFA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlvaroFA/nodeChat/issues"
+  },
+  "homepage": "https://github.com/AlvaroFA/nodeChat#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}

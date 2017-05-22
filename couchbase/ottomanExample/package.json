@@ -1,0 +1,30 @@
+{
+  "name": "compostela",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlvaroFA/couchbase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlvaroFA/couchbase/issues"
+  },
+  "homepage": "https://github.com/AlvaroFA/couchbase#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "couchbase": "^2.3.2",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "ottoman": "^1.0.4",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-beta.12",
+    "uuid": "^3.0.1"
+  }
+}
